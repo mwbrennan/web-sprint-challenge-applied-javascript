@@ -43,6 +43,9 @@ const Card = (article) => {
   imgDiv.appendChild(image);
   authorDiv.appendChild(name);
 
+
+  ///somehow didn't see this part of instructions..///
+
   div.addEventListener('click', () => {
     console.log(article.headline);
   }); 
