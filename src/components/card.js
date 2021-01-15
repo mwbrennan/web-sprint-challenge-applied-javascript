@@ -43,9 +43,14 @@ const Card = (article) => {
   imgDiv.appendChild(image);
   authorDiv.appendChild(name);
 
+  div.addEventListener('click', () => {
+    console.log(article.headline);
+  }); 
+
   return div;
 
 }
+
 
 const cardAppender = (selector) => {
   // TASK 6
